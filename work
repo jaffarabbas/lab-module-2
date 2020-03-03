@@ -1,0 +1,158 @@
+package com.jaffar;
+
+public class Jaffar {
+
+
+
+
+    //6.5 of charges
+//        float var65 = 1622600*0.65f;
+//        float v =3245200f;
+//        System.out.println("One year payment in 6.5% is : "+var65);
+//      int a =1;
+//      while(true) {
+//          var65 = var65 + var65;
+//          a++;
+//
+//          if(var65 >= v){
+//              System.out.printf("It will take %d years to be doubled",a);
+//              break;
+//      }
+//      }
+
+    //**********************************************************
+
+//        Scanner obj = new Scanner(System.in);
+
+
+
+//        System.out.println("Enter year :  ");
+//
+//        int year = obj.nextInt();
+//
+//        if(year %400 == 0 || year%4==0)
+//        {
+//            System.out.println("Leap year");
+//        }
+//        else
+//        {
+//            System.out.println("Not leap");
+//        }
+
+
+    //**************************************
+
+//        int number  =obj.nextInt();
+//        int i ,sum = 0;
+//        for(i=1;i<=number;i++)
+//
+//        {
+//            System.out.println (2*i-1);
+//            sum+=2*i-1;
+//        }
+//        System.out.println ("The Sum of odd Natural Number upto " +number+" terms is: " +sum);
+
+
+    //home task
+
+//        int num1=obj.nextInt();
+//        int num2=obj.nextInt();
+//        int num3=obj.nextInt();
+//
+//        if(num1 < num2 || num2 < num3)
+//        {
+//            System.out.println("increasing");
+//        }
+//        else if(num1 > num2 || num2 > num3)
+//        {
+//            System.out.println("decreasing");
+//        }
+//        else
+//        {
+//            System.out.println("Neither increasing nor decreasing");
+//        }
+
+    //************************************************
+
+//        ●     Package A: For Rs.900.95 per month 10 hours of access are provided. Additional hours
+//        are Rs. 120.00 per hour.
+//        ● Package B: For Rs.1300.95 per month 20 hours of access are provided. Additional hours
+//        are Rs. 100.00 per hour.
+//        ● Package C: For Rs. 1900.95 per month unlimited access is provided.
+//
+//        System.out.println("Enter pakage : ");
+//        char pakage = obj.next().charAt(0);
+//        System.out.println("Enter Hours  : ");
+//        int hour = obj.nextInt();
+//
+//        if(pakage == 'a' || pakage == 'A')
+//        {
+//            float bill = 900.95f * hour;
+//
+//            if(hour > 10)
+//            {
+//                int remainhour = hour - 10;
+//                int addchages = remainhour*120;
+//
+//                float bill2 = (900.95f * hour)+addchages;
+//
+//                System.out.println("Your monthly bill is "+bill2+" Rs , Hours are : "+hour);
+//            }
+//            else
+//            {
+//                System.out.println("Your monthly bill is "+bill+" Rs , Hours are : "+hour);
+//            }
+//        }
+//        else if(pakage == 'b' || pakage == 'B')
+//        {
+//            float bill = 1300.95f * hour;
+//
+//            if(hour > 20)
+//            {
+//                int remainhour = hour - 20;
+//                int addchages = remainhour*100;
+//
+//                float bill2 = (1300.95f * hour)+addchages;
+//
+//                System.out.println("Your monthly bill is "+bill2+" Rs , Hours are : "+hour);
+//            }
+//            else
+//            {
+//                System.out.println("Your monthly bill is "+bill+" Rs , Hours are : "+hour);
+//            }
+//        }
+//        else if(pakage == 'c' || pakage == 'C')
+//        {
+//            float bill = 1900.95f * hour;
+//
+//            if(hour > 720)
+//            {
+//                System.out.println("Your monthly bill is "+bill+" Rs , Hours are : "+hour);
+//            }
+//            else
+//            {
+//                System.out.println("Expired");
+//            }
+//        }
+
+    //********************************
+//        System.out.println("Enter Speed :");
+//        float speed = obj.nextInt();
+//        System.out.println("Enter Time :");
+//        float time = obj.nextInt();
+//        if (time >= 1)
+//        for (int i = 1 ; i <=time ; i++)
+//        {
+//                float distance = speed * i;
+//
+//                System.out.println(i+"  "+distance);
+//        }
+//        else
+//        {
+//            System.out.println("Time error");
+//        }
+
+    //****************************************
+
+
+}
